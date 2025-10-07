@@ -1,0 +1,8 @@
+
+## `requirements.txt`
+```txt
+numpy
+pandas
+scikit-learn
+matplotlib
+torch       # CPU build is fine; install CUDA variant if you have a GPU
