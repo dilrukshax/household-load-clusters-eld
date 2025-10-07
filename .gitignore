@@ -156,10 +156,10 @@ tensorboard/
 wandb/
 
 # Data files (uncomment if you want to ignore data)
-# data/
-# *.csv
-# *.txt
-# *.json
+data/
+*.csv
+*.txt
+*.json
 
 # Model outputs
 *.png
