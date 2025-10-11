@@ -1,0 +1,19 @@
+# Core
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+Pillow
+
+# TensorFlow (for CNN/RNN/LSTM)
+tensorflow>=2.12
+
+# PyTorch (for GNN)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# PyTorch Geometric (install as per https://pytorch-geometric.readthedocs.io/ )
+# pip install torch-geometric
+# and depending on your torch/cuda: pip install pyg-lib torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.0.0+cpu.html
