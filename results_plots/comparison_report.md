@@ -1,30 +1,30 @@
 # Brain Tumor Classification - Model Comparison Report
 
-**Generated:** 2025-10-12 19:55:17
+**Generated:** 2025-10-13 16:07:02
 
 ## Executive Summary
 
 Compared **3** models: CNN, RNN, LSTM
 
 ### Best Performing Models:
-- **Accuracy:** RNN (0.5953)
-- **F1 (Macro):** RNN (0.5850)
+- **Accuracy:** CNN (0.8368)
+- **F1 (Macro):** CNN (0.8406)
 
 ## Performance Comparison
 
 | Model | Accuracy | F1 (Macro) | F1 (Weighted) |
 |-------|----------|------------|---------------|
-| CNN | 0.2976 | 0.1147 | 0.1365 |
-| RNN | 0.5953 | 0.5850 | 0.5803 |
-| LSTM | 0.5230 | 0.5093 | 0.4975 |
+| CNN | 0.8368 | 0.8406 | 0.8353 |
+| RNN | 0.7937 | 0.8003 | 0.7939 |
+| LSTM | 0.7746 | 0.7819 | 0.7744 |
 
 ## Per-Class Performance
 
 | Model | Glioma | Meningioma | Pituitary | No Tumor |
 |-------|--------|------------|-----------|----------|
-| CNN | 0.459 | 0.000 | 0.000 | 0.000 |
-| RNN | 0.598 | 0.390 | 0.650 | 0.701 |
-| LSTM | 0.551 | 0.400 | 0.388 | 0.699 |
+| CNN | 0.774 | 0.932 | 0.800 | 0.857 |
+| RNN | 0.754 | 0.737 | 0.830 | 0.881 |
+| LSTM | 0.738 | 0.713 | 0.799 | 0.876 |
 
 ## Generated Visualizations
 
